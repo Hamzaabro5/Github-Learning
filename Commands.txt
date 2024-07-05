@@ -1,8 +1,11 @@
+For connecting git to github
+
 git config --global user.name "Your Username"
 git config --global user.email "Your Email"
 
 
 
-git status
-git init
-git add .t
+git status =====> (For Checking file/folder status)
+git init =====> (For initiallizing Files)
+git add . // git add file name =====> (For staged files changes)
+git commit -m "commit message" ====> (For commit your)
