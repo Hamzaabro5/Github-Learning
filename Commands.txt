@@ -7,10 +7,18 @@ git config --global user.email "Your Email"
 
 git status =====> (For Checking file/folder status)
 git init =====> (For initiallizing Files)
-git add . // git add file name =====> (For staged files changes)
-git commit -m "commit message" ====> (For commit your message in code)
+git add . // git add file name =====> (For tracking files changes)
+git commit -m "commit message" ====> (For commit your message)
 
 
 git branch =====> (For check which branches are availible and which we are on)
-git checkout =====> (For changing branch)
+git branch branchname ====> (For create another branch)
+git checkout branchname =====> (For switching branch)
+git checkout -b branchname (For create and switch to created branch)
+git merge branchname =====> (For merging branch to main/master)
+
+
+main/master is default branch
+
+
 git clone Link =====> (For cloning repo)
