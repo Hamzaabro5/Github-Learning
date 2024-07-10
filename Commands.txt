@@ -4,21 +4,33 @@ git config --global user.name "Your Username"
 git config --global user.email "Your Email"
 
 
-
+Basic commands:
 git status =====> (For Checking file/folder status)
 git init =====> (For initiallizing Files)
 git add . // git add file name =====> (For tracking files changes)
 git commit -m "commit message" ====> (For commit your message)
+git clone Link =====> (For cloning repo)
 
 
+
+
+
+Branches commands:
 git branch =====> (For check which branches are availible and which we are on)
 git branch branchname ====> (For create another branch)
 git checkout branchname =====> (For switching branch)
 git checkout -b branchname (For create and switch to created branch)
 git merge branchname =====> (For merging branch to main/master)
 
-
 main/master is default branch
 
 
-git clone Link =====> (For cloning repo)
+
+
+
+
+
+Rebase:
+Never rebase on main/master
+
+rebase and merge works same but while merging merge create commit but rebase don't commit   
